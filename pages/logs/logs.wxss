@@ -1,0 +1,52 @@
+
+/* 顶部 */
+.top-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	border-bottom: 1rpx solid;
+}
+
+.top-container .item {
+	width: 50%;
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0 40rpx;
+}
+/* 删除区 */
+.top-container .clear{
+	text-align: end;
+}
+
+.top-container .clear .icon-icon {
+	margin-right: 10rpx;
+	font-size: 40rpx;
+	vertical-align: bottom;
+}
+
+/* 内容区 */
+.main-container{
+	width: 100%;
+	margin-top: 80rpx;
+	padding-top: 30rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.main-container .item{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	padding:20rpx 15rpx;
+	margin: 30rpx;
+	background-color: rgba(204, 204, 204, 0.493);
+	border: 1rpx solid #999;
+	border-radius: 10rpx;
+	color: #008c8c;
+	gap: 20rpx;
+	box-shadow: 4rpx -2rpx 15rpx rgb(82, 73, 73);
+}

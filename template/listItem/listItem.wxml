@@ -1,0 +1,10 @@
+<template name="listItem">
+	<block wx:for="{{list}}" wx:key="index">
+		<view class="item" >
+			<text user-select>原句：{{item.input}}</text>
+			<text user-select>翻译：{{item.translate}}</text>
+		</view>
+	</block>
+
+
+</template>

@@ -1,0 +1,4 @@
+<!--pages/change/change.wxml-->
+<view class="change-container">
+	<view class="langItem" wx:for="{{languageAll}}" wx:key="index" bind:tap="handleClick"  data-item="{{item}}">{{item.chs}}</view>
+</view>

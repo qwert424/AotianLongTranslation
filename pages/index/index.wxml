@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+	<view class="change-container" bind:tap="handleChangeLanguage">
+		<text>{{langtext}}</text>
+		<text class="iconfont icon-xiajiantou"></text>
+	</view>
+	<view class="top-container">
+		<textarea  placeholder="欢迎使用龙傲天翻译^_^ 请输入您要翻译的内容!" class="input-area" model:value="{{inputVal}}" bind:input="isNull" bindblur="handleTranslate" selectable />
+	</view>
+	<view class="bottom-container">
+		<text user-select>{{translateVal===null?"":translateVal}}</text>
+		<text class="tip" wx:if="{{translateVal===null}}">点击翻译区进行翻译</text>
+	</view>
+</view>

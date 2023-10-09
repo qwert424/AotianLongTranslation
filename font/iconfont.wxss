@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4274404 */
+  src: url('//at.alicdn.com/t/c/font_4274404_a2uf5cdj6r5.ttf?t=1696755991860') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon:before {
+  content: "\e6a0";
+}
+
+.icon-xiajiantou:before {
+  content: "\eb6d";
+}
+
